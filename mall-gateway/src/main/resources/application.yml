@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    nacos:
+      server-addr: 211.69.197.52:8848
+    gateway:
+      routes:
+        - id: test_route
+          uri: https://www.baidu.com
+          predicates:
+            - Query=url,baidu
+  application:
+    name: mall-gateway
+
+
+server:
+  port: 88

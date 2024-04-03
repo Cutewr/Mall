@@ -13,6 +13,8 @@
         <module>mall-ware</module>
         <module>renren-generator</module>
         <module>mall-common</module>
+        <module>mall-member</module>
+        <module>mall-order</module>
     </modules>
 
 </project>
