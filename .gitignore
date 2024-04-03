@@ -16,8 +16,6 @@ buildNumber.properties
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 
-**/mvnm
-**/.mvn
 **/target/
 .idea
 **/.gitignore
