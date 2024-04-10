@@ -1,8 +1,13 @@
-package com.example.mall.member;
+package com.project.mall.member;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
+
+//@EnableFeignClients(basePackages = "com.project.mall.member.feign")
+@EnableDiscoveryClient
 @SpringBootApplication
 public class MallMemberApplication {
 
