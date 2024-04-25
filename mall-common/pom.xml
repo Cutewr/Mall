@@ -14,7 +14,6 @@
     </description>
 
 
-
     <name>mall-common</name>
     <url>http://maven.apache.org</url>
 
@@ -72,7 +71,6 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-            <version>2021.1</version>
         </dependency>
         <!--配置中心做配置管理-->
         <dependency>
@@ -101,7 +99,7 @@
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>2021.0.5.0</version>
+                <version>2021.0.1.0</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
