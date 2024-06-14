@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.project.mall.ware.dao.InvmovedetailDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.project.mall.ware.entity.InvmovedetailEntity" id="invmovedetailMap">
+        <result property="movedetailid" column="MoveDetailId"/>
+        <result property="inventorymoveid" column="InventorymoveId"/>
+        <result property="status" column="Status"/>
+        <result property="materialid" column="MaterialId"/>
+        <result property="planqty" column="PlanQty"/>
+        <result property="actqty" column="ActQty"/>
+        <result property="auditinid" column="AuditinId"/>
+        <result property="auditintime" column="AuditinTime"/>
+        <result property="isdel" column="IsDel"/>
+        <result property="remark" column="Remark"/>
+        <result property="createby" column="CreateBy"/>
+        <result property="createdate" column="CreateDate"/>
+        <result property="modifiedby" column="ModifiedBy"/>
+        <result property="modifieddate" column="ModifiedDate"/>
+    </resultMap>
+
+
+</mapper>

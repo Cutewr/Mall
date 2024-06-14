@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.project.mall.ware.dao.StockinDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.project.mall.ware.entity.StockinEntity" id="stockinMap">
+        <result property="stockinid" column="StockInId"/>
+        <result property="stockinno" column="StockInNo"/>
+        <result property="stockintype" column="StockInType"/>
+        <result property="supplierid" column="SupplierId"/>
+        <result property="orderno" column="OrderNo"/>
+        <result property="stockinstatus" column="StockInStatus"/>
+        <result property="remark" column="Remark"/>
+        <result property="isdel" column="IsDel"/>
+        <result property="createby" column="CreateBy"/>
+        <result property="createdate" column="CreateDate"/>
+        <result property="modifiedby" column="ModifiedBy"/>
+        <result property="modifieddate" column="ModifiedDate"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.project.mall.ware.dao.StoragerackDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.project.mall.ware.entity.StoragerackEntity" id="storagerackMap">
+        <result property="storagerackid" column="StorageRackId"/>
+        <result property="storagerackno" column="StorageRackNo"/>
+        <result property="storagerackname" column="StorageRackName"/>
+        <result property="reservoirareaid" column="ReservoirAreaId"/>
+        <result property="remark" column="Remark"/>
+        <result property="isdel" column="IsDel"/>
+        <result property="createby" column="CreateBy"/>
+        <result property="createdate" column="CreateDate"/>
+        <result property="modifiedby" column="ModifiedBy"/>
+        <result property="modifieddate" column="ModifiedDate"/>
+        <result property="warehouseid" column="WarehouseId"/>
+    </resultMap>
+
+
+</mapper>
